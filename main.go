@@ -208,7 +208,7 @@ func init() {
 	// 默认昵称
 	adana := flag.String("n", "椛椛", "Set default nickname.")
 	prefix := flag.String("p", "/", "Set command prefix.")
-	runcfg := flag.String("c", "", "Run from config file.")
+	runcfg := flag.String("c", "config.json", "Run from config file.")
 	save := flag.String("s", "", "Save default config to file and exit.")
 	late := flag.Uint("l", 233, "Response latency (ms).")
 	rsz := flag.Uint("r", 4096, "Receiving buffer ring size.")
